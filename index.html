@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="lemonade">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,9 @@
     <!-- CONNECT DAISY UI  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- ADDING THEMES IN YOUR WEBSITE -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
 
     <style type="text/tailwindcss">
       @theme {
@@ -21,12 +24,23 @@
 <body>
     <main>
         <section>
-            <h1>
-                DAISY UI
-            </h1>
-            <button class="btn btn-primary w-8 ">
-                HI IAM DAISY
-            </button>
+            <div class="text-center bg-primary/10">
+                <h1>
+                    DAISY UI
+                </h1 >
+                <button class="btn btn-primary">
+                    HI IAM DAISY
+                </button>
+                <button class="btn btn-error">
+                    HI IAM DAISY
+                </button>
+                <button class="btn btn-warning">
+                    HI IAM DAISY
+                </button>
+                <button class="btn btn-secondary">
+                    HI IAM DAISY
+                </button>
+                </div>
         </section>
     </main>
 </body>
